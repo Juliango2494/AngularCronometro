@@ -1,7 +1,7 @@
 [build]
   base = "cronometro-app"
   command = "ng build --configuration production"
-  publish = "dist/cronometro-app"
+  publish = "dist/cronometro-app/browser"
 
 [[redirects]]
   from = "/*"
