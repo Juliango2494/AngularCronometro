@@ -1,0 +1,9 @@
+<div class="contenedor">
+  <h1 class="tiempo">{{ tiempo | number:'2.0' }} s</h1>
+
+  <div class="botones">
+    <button (click)="iniciar()" [disabled]="!pausado">Empezar</button>
+    <button (click)="pausar()" [disabled]="pausado">Pausar</button>
+    <button (click)="reiniciar()">Reiniciar</button>
+  </div>
+</div>
